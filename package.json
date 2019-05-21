@@ -11,5 +11,11 @@
     "start": "NODE_ENV=production node dist/index.js",
     "test": "NODE_ENV=test jest",
     "ts-node": "ts-node"
+  },
+  "dependencies": {
+    "@yarnaimo/rain": "latest"
+  },
+  "devDependencies": {
+    "@yarnaimo/tss": "latest"
   }
 }
