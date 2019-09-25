@@ -23,7 +23,7 @@ Thumbs.db
 .config
 .env
 .firebase
-.nuxt
+.next
 config
 coverage
 dist/**/*
