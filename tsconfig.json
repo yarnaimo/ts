@@ -1,14 +1,18 @@
 {
-    "extends": "@yarnaimo/tss/tsconfig.json",
-    "compilerOptions": {
-        "outDir": "dist",
-        "lib": ["dom", "dom.iterable", "es2019"],
-        "baseUrl": ".",
-        "paths": {
-            "*": ["node_modules/@types/*", "src/@types/*"]
-        },
-        "types": ["@types/node", "@types/jest"]
+  "extends": "@sindresorhus/tsconfig",
+  "compilerOptions": {
+    "target": "es2018",
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "dist",
+    "lib": ["dom", "dom.iterable", "es2019"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/@types/*", "src/@types/*"]
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    "types": ["@types/node", "@types/jest"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
