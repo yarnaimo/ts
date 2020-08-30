@@ -3,6 +3,9 @@
  */
 const config = {
   extends: ['@yarnaimo'],
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   rules: {
     'no-restricted-imports': [
       'error',
